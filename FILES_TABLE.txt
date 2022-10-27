@@ -1,0 +1,76 @@
+SCENES
+seg001:8082: apparently, variable holding the current scene
+seg000:4D3C: only write to seg001:8082 in the whole code
+
+seg001:78E4: starts file table with all scenes.
+             to index: scene=(n-1)*8
+01: DUNGEON
+02: CORRIDOR
+03: DROP
+04: LAKEBED
+05: CAVECOR
+06: POOL
+07: WELL
+08: CAVERBMI
+09: SEESAW
+0A: SHAFT
+0B: CAVE
+0C: COUNTRY1
+0D: COUNTRY2
+0E: XROADS
+0F: SORCERY
+10: ROGUE
+11: GYPSY
+12: DRAGON
+13: MAGE
+14: DERELICT
+15: BENN
+16: CHANGE
+17: SALLY
+18: INNSIDE
+19: FRANKS
+1A: EDGE
+1B: WISE
+1C: DINO
+1D: CELESTE
+1E: REMOTE
+1F: POST
+20: HOLD
+21: GUETTO
+22: CLOUD
+23: ELECTRO
+24: SNOWAST1
+25: SNOWAST2
+26: SNOWAST3
+27: SNOWAST4
+28: ICELAKE
+29: ICEPAL
+2A: ICEROOM
+2B: ICECORR
+2C: ICEQUEEN
+2D: ICEGUARD
+2E: GRAVE
+2F: GRAVEYD1
+30: CORPSE
+31: GATE
+32: CASTLENT
+33: CASTHALL
+34: STUDY
+35: LIBRARY
+36: FINAL
+37: BASEBAT
+38: DUNGEON
+39: DUNGEON
+3A: GRAVEYD2
+3B: GRAVEYD
+
+seg001:757E: starts table with pointers to certain information about each scene
+
+ACTIONS MENU
+seg001:B620: holds the list of actions to be shown, ie: 0, 1, 2, ..., 9 for the main menu
+
+
+
+GENERAL
+seg001:2C2D: brad.position.x
+seg001:2C2F: brad.position.y

@@ -1,0 +1,13 @@
+num = width * height
+while (num > 0) {
+  read byte -> count
+  if (count < 0) {
+    read byte -> value
+    copy value into next -count pixels
+    num += count
+  }
+  else {
+    copy count+1 pixels
+    num -= count+1
+  }
+}
