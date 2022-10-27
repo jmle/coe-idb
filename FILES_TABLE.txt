@@ -69,7 +69,34 @@ seg001:757E: starts table with pointers to certain information about each scene
 ACTIONS MENU
 seg001:B620: holds the list of actions to be shown, ie: 0, 1, 2, ..., 9 for the main menu
 
-
+  - enums for actions
+    MAIN
+      - 00h: bag
+      - 01h: grab
+      - 02h: use
+      - 03h: look
+      - 04h: talk
+      - 05h: fight
+      - 06h: jump
+      - 07h: disk
+      - 08h: music
+      - 09h: credits
+    DISK
+      - 0Ah: load
+      - 0Bh: save
+      - 0Ch: del
+    USE
+      - 0Fh: keyhole
+      - 10h: card
+      - 11h: push/pull
+      - 12h: eat
+      - 13h: wear
+      - 14h: throw
+      - 15h: give
+      - 16h: mix
+    
+seg001:5239: list of speak actions?
+seg001:5225: list of bag items?
 
 GENERAL
 seg001:2C2D: brad.position.x
