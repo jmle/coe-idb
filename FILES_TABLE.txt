@@ -99,6 +99,7 @@ seg001:5239: list of speak actions?
 seg001:5225: list of bag items?
 
 seg001:B686: start of table with menuAction function pointers
+seg001:B636: address to the specific action to be executed?
 
 GENERAL
 seg001:2C2D: brad.position.x
